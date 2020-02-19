@@ -15,6 +15,7 @@ while flag
   when "Bill"
     bill
   when "Start"
+    puts "Enter the first number then operator and another number:"
     number1 = gets.chomp.to_f
     operator = gets.chomp
     number2 = gets.chomp.to_f
